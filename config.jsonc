@@ -72,6 +72,16 @@
       "keyColor": "blue"
     },
     {
+      "type": "wm",
+      "key": "├   Window manager",
+      "keyColor": "blue"
+    },
+    {
+      "type": "de",
+      "key": "├   Desktop environment",
+      "keyColor": "blue"
+    },
+    {
       "type": "shell",
       "key": "├   Shell",
       "keyColor": "blue"
