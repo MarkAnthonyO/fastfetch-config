@@ -10,8 +10,7 @@ function fish_prompt
     set_color white -b $color_secondary  
     echo -n \uf1c0 ""
     set user_path $(string replace "/home/$USER" "~" $(pwd))
-    set path $(string replace "/" $(echo "" \ue0b1 "") $user_path)
-    echo -n "" $path ""
+    echo -n "" $user_path ""
     
     set_color $color_secondary -b normal
     echo -n \ue0b0 ""
