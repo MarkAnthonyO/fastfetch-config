@@ -1,6 +1,6 @@
 function fish_prompt
-    set color_primary "007fff"
-    set color_secondary "00b7ff"
+    set color_primary "404040"
+    set color_secondary "787878"
     
     set_color white -b $color_primary
     echo -n "" \uf007 "" $USER "" \uf109 "" $hostname ""
